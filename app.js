@@ -2,7 +2,7 @@ require('dotenv').config();
 const process = require('process');
 const username = process.env.WEB_USERNAME || "admin";
 const password = process.env.WEB_PASSWORD || "password";
-const UUID = process.env.UUID || "de04add9-5c68-8bab-950c-08cd5320df18";
+const UUID = process.env.UUID || "2ce53303-af16-4c34-8b15-d31ffd556681";
 const os = require('os');
 const path = require('path');
 const express = require("express");
